@@ -1,0 +1,176 @@
+[
+    {
+      "intent": "emi_query",
+      "examples": [
+        "Tell me about my EMI",
+        "What is my EMI amount?",
+        "How much EMI do I have to pay?",
+        "EMI details please",
+        "I want to know my EMI",
+        "How much is my monthly installment?",
+        "Can you show my EMI?",
+        "EMI kitna hai?",
+        "EMI check karo",
+        "EMI status kya hai?",
+        "Emi btau kitna hai per month ke hisab se"
+      ],
+      "responses": [
+        "Sure, I can help you with your EMI details.",
+        "Your EMI is ₹4,500/month. Due date is 5th every month."
+      ],
+      "suggested_replies": [
+        "loan",
+        "When is my due date?",
+        "Can I change my EMI date?",
+        "What if I miss EMI?"
+      ]
+    },
+    {
+      "intent": "loan_status",
+      "examples": [
+        "Is my loan approved?",
+        "Check my loan status",
+        "What's the status of my loan?",
+        "Loan approved or not?",
+        "Mera loan status kya hai?",
+        "Loan check karo",
+        "Have you approved my loan?",
+        "Loan approved hua kya?",
+        "Status of my loan?",
+        "Loan ka kya hua?"
+      ],
+      "responses": [
+        "Let me check your loan status.",
+        "Your loan of ₹1,00,000 has been approved and is under final review."
+      ],
+      "suggested_replies": [
+        "How much is approved?",
+        "When will I receive the money?",
+        "Why is it delayed?"
+      ]
+    },
+    
+        {
+          "intent": "document_list",
+          "examples": [
+            "Document List",
+            "Show document list",
+            "What documents are required?",
+            "List of documents",
+            "docs needed",
+            "What is my pan card?",
+            "Adhar card",
+            "Ration card",
+            "Voter ID",
+            "Tell me document list",
+            "KYC documents",
+            "Which documents needed?",
+            "pencard",
+            "adhar card",
+            "rashcard",
+            "nirvachan card"
+          ],
+          "responses": [
+            "Sure, I can help you with your Documents details.",
+            "Here are the main documents required: PAN, Aadhaar, Voter ID, and Ration Card."
+          ],
+          "suggested_replies": [
+           
+          ]
+        },
+    {
+      "intent": "ask_pancard",
+      "examples": [
+        "pencard",
+        "pan card",
+        "What is PAN?",
+        "Is PAN required?",
+        "Upload PAN card?"
+      ],
+      "responses": [
+        "Yes, PAN card is required. Please ensure it's linked with your Aadhaar and valid."
+      ]
+    },
+    {
+      "intent": "ask_adharcard",
+      "examples": [
+        "adhar card",
+        "aadhaar card",
+        "aadhaar needed?",
+        "Upload Aadhaar",
+        "Do I need Aadhaar?"
+      ],
+      "responses": [
+        "Aadhaar card is mandatory for identity verification and KYC compliance."
+      ]
+    },
+    {
+      "intent": "ask_rashancard",
+      "examples": [
+        "rashcard",
+        "ration card",
+        "Do I need ration card?",
+        "Why ration card?",
+        "Submit rashan card"
+      ],
+      "responses": [
+        "Ration card is optional but helpful for address proof in some cases."
+      ]
+    },
+    {
+      "intent": "ask_voterid",
+      "examples": [
+        "nirvachan card",
+        "voter card",
+        "voter id",
+        "Do I need voter card?",
+        "Submit nirvachan card"
+      ],
+      "responses": [
+        "Voter ID is accepted as identity and address proof. You can upload it if available."
+      ]
+    },
+    {
+      "intent": "connect_support",
+      "examples": [
+        "connect",
+        "email",
+        "phone",
+        "call",
+        "number",
+        "support team",
+        "talk to support",
+        "info@suryaloan.com",
+        "support@suryaloan.com"
+      ],
+      "responses": [
+        "You can contact us at: info@suryaloan.com or support@suryaloan.com"
+      ],
+      "suggested_replies": [
+        "info@suryaloan.com",
+        "support@suryaloan.com"
+      ]
+    },
+    {
+        "intent": "When is my due date",
+        "examples": [
+          "due_date",
+          "When is my due date",
+          "When is my due date",
+          "When is my due date",
+          "When is my due date",
+          "due_date team",
+          "delayed to support",
+          "delayed@delayed.com",
+          "delayed@delayed.com"
+        ],
+        "responses": [
+          "You can contact us at: delayed@due_date.com or delayed@delayed.com"
+        ],
+        "suggested_replies": [
+          "due When is my due date.com",
+          "When is my due date@suryaloan.com"
+        ]
+      }
+  ]
+  
